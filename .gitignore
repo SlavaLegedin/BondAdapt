@@ -1,0 +1,4 @@
+bin
+*.class
+/AdaptDebug/src/main/resources/chromedriver.exe
+chromedriver.exe

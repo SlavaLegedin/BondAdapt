@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="AdaptEngine_General" verbose="1">
+	<test name="EngineTC">
+		<packages>
+			<package name="testcases.CalendarTC" />
+			<package name="testcases.JournalTC" />
+		</packages>
+	</test>
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test Fire Fox">
+<parameter name="browser" value="firefox" />
+	<listeners>
+		<listener class-name="_helpers.CustomReport" />
+	</listeners>
+	<test name="Smoke Test Fire Fox">
+		<classes>
+			<class name="testcases.TC_verifyLeftTabPanel" />
+			<class name="testcases.TC_verifyTopCalendar" />
+			<class name="testcases.TC_verifyTopPanel" />
+		</classes>
+	</test>
+</suite> 
