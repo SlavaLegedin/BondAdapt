@@ -136,8 +136,8 @@ public class CreateJobs extends TestBase {
 		// put data to json with informatin
 		testData.put("directJobId", directJobId);
 		testData.put("directJobTitle", directJobTitle);
-		testData.put("DirectJobMinSalary", directJobMinSalary)
-		testData.put("DirectJobMaxSalary", directJobMaxSalary)
+		testData.put("DirectJobMinSalary", directJobMinSalary);
+		testData.put("DirectJobMaxSalary", directJobMaxSalary);
 		io.writeMapFile(testData);
 		
 	}
