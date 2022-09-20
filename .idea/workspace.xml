@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da18d797-864c-44e0-b008-837d8f372560" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AdaptDebug/src/main/java/Other/DatesCalculation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdaptDebug/src/main/java/pages/S_JobsHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdaptDebug/src/main/java/pages/W_DirectJob_NewJobOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AdaptDebug/src/main/java/pages/directJobEntity/S_DirectJob_Summary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdaptDebug/src/main/java/pages/W_DirectJob_NewJobOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdaptDebug/src/main/java/pages/W_DirectJob_NewJobOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdaptDebug/testdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/AdaptDebug/testdata.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +168,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "F:/Automation/GitHub/BondAdapt",
     "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",

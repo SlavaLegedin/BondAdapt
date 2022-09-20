@@ -1,1 +1,5 @@
-{"testdata":{"ContactCountry":null,"CompanyID":"62867","city":"New York","ClientZip":"85003","postalCode":"10021","ContactPostCode":"10021","CompanyState":"Arizona","contctID":"193667","ClientName":"SClient_2104112190724432","streetAddress":"21 2nd Street","contactFN":"SContFN_2104112190819147","ContactAddress1":"21 2nd Street","ClientAddress1":"Address SClient_2104112190724432","ContactEmail":"2104112190819148@testmail.cc.com","ContactCity":"New York","state":"NY","CompanyCity":"Phoenix","ContactrLN":"Selenide","ContactState":"NY","CompanyCountry":"UNITED STATES"}}
+{"testdata":{"ContactCountry":null,"CompanyID":"62867","city":"New York","ClientZip":"85003","postalCode":"10021",
+  "ContactPostCode":"10021","CompanyState":"Arizona","contctID":"193667","ClientName":"SClient_2104112190724432",
+  "streetAddress":"21 2nd Street","contactFN":"SContFN_2104112190819147","ContactAddress1":"21 2nd Street",
+  "ClientAddress1":"Address SClient_2104112190724432","ContactEmail":"2104112190819148@testmail.cc.com","ContactCity":"New York",
+  "state":"NY","CompanyCity":"Phoenix","ContactrLN":"Selenide","ContactState":"NY","CompanyCountry":"UNITED STATES"}}
