@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da18d797-864c-44e0-b008-837d8f372560" name="Default Changelist" comment="" />
+    <list default="true" id="da18d797-864c-44e0-b008-837d8f372560" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdaptDebug/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/AdaptDebug/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdaptDebug/AdaptDebug.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdaptDebug/AdaptDebug.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,7 +167,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.PageCreator.test">
+  <component name="RunManager" selected="TestNG.AdaptUserCalendarVerify">
     <configuration name="AdaptUserCalendarVerify" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AdaptDebug" />
       <extension name="coverage">
@@ -223,8 +227,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PageCreator.test" />
         <item itemvalue="TestNG.AdaptUserCalendarVerify" />
+        <item itemvalue="TestNG.PageCreator.test" />
         <item itemvalue="TestNG.UserCalendarSettingsVerify" />
       </list>
     </recent_temporary>
