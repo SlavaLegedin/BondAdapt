@@ -482,7 +482,7 @@ public class CustomReport implements IReporter {
     @SuppressWarnings("deprecation")
 	protected void writeStackTrace(Throwable throwable) {
         writer.print("<div class=\"stacktrace\">");
-        writer.print(Utils.stackTrace(throwable, true)[0]);
+//        writer.print(Utils.stackTrace(throwable, true)[0]);
         writer.print("</div>");
     }
 

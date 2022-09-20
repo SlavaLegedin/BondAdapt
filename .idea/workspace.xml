@@ -27,6 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/AdaptDebug/AdaptDebug.iml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AdaptDebug/DebugTests.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AdaptDebug/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AdaptDebug/src/main/java/_helpers/PropsReader.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AdaptDebug/src/main/java/_helpers/TestBase.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AdaptDebug/src/main/java/testcases/CalendarTC/AdaptUserCalendarVerify.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AdaptDebug/src/main/java/testcases/CalendarTC/UserCalendarSettingsVerify.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AdaptDebug/src/main/resources/.gitignore" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AdaptDebug/src/main/resources/config.properties" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AdaptDebug/src/main/resources/variables.properties" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -146,12 +158,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "last_opened_file_path": "F:/Automation/GitHub/BondAdapt",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.AdaptUserCalendarVerify">
+  <component name="RunManager" selected="TestNG.PageCreator.test">
     <configuration name="AdaptUserCalendarVerify" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AdaptDebug" />
       <extension name="coverage">
@@ -163,6 +175,24 @@
       <option name="PACKAGE_NAME" value="testcases.CalendarTC" />
       <option name="MAIN_CLASS_NAME" value="testcases.CalendarTC.AdaptUserCalendarVerify" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageCreator.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AdaptDebug" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_helpers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_helpers" />
+      <option name="MAIN_CLASS_NAME" value="_helpers.PageCreator" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -187,11 +217,13 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.PageCreator.test" />
       <item itemvalue="TestNG.AdaptUserCalendarVerify" />
       <item itemvalue="TestNG.UserCalendarSettingsVerify" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PageCreator.test" />
         <item itemvalue="TestNG.AdaptUserCalendarVerify" />
         <item itemvalue="TestNG.UserCalendarSettingsVerify" />
       </list>

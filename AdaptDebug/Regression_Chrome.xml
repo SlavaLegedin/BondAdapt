@@ -7,8 +7,8 @@
 	</listeners>
 	<test name="Smoke Test Chrome">
 		<classes>
-			<class name="testcases.TopPanelVerifying" />
-			<class name="testcases.FastFindVerifying" />
+<!--			<class name="testcases.TopPanelVerifying" />
+			<class name="testcases.FastFindVerifying" /> -->
 		</classes>
 	</test>
 </suite> 
