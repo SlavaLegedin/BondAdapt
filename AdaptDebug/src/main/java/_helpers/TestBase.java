@@ -49,15 +49,16 @@ public class TestBase {
 			Configuration.timeout = 15000;
 
 			ChromeOptions chromeOptions = new ChromeOptions();
-			chromeOptions.setPageLoadStrategy(PageLoadStrategy.NONE);
+//			chromeOptions.setPageLoadStrategy(PageLoadStrategy.NONE);
 			chromeOptions.addArguments("--start-maximized");
-			chromeOptions.addArguments("--disable-infobars");
-			chromeOptions.addArguments("--incognito");
-			chromeOptions.addArguments("--user-data-dir=" + config.getChromeProfile());
+//			chromeOptions.addArguments("--disable-infobars");
+//			chromeOptions.addArguments("--incognito");
+//			chromeOptions.addArguments("--user-data-dir=" + config.getChromeProfile());
 			System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 			driver = new ChromeDriver(chromeOptions);
 			WebDriverRunner.setWebDriver(driver);
 			open(config.getUrl());
+//			open("https://ccm58.bondadapt-us.com/WebApp/");
 			try {
 				Configuration.assertionMode = AssertionMode.STRICT;
 				new S_LogIn().logIn(config.getUserName(), config.getUserPassword());
