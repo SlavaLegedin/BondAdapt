@@ -49,7 +49,7 @@ public class CreateJobs extends TestBase {
 			enabled = false
 			//dependsOnClass = {"CreateClient"}
 	)
-	public void CreateDirectJob() throws FileNotFoundException, IOException, ParseException {
+	public void CreateDirectJob() throws FileNotFoundException, IOException, ParseException, java.text.ParseException {
 		/*1. Open Client or Contact (count that already opened after previous step)
 		 * 2. Open Activity menu
 		 * 3. Select Add New
@@ -79,7 +79,7 @@ public class CreateJobs extends TestBase {
 		
 		//Variables for Job ////////////////////////////////////////////////
 		//category should be moved to data file. Properties?????
-		//replce should be chnaged to something more flexible.
+		//replace should be changed to something more flexible.
 		String directJobName = clientName.replace("SClient_", "SC_DrctJob");
 		String directJobCategory = "Distribution Management";
 		String directStartDate = dt.getFirstDayOfYear().toString();
@@ -89,7 +89,7 @@ public class CreateJobs extends TestBase {
 		
 		switchTo().defaultContent();
 		switchTo().frame(cHome.frameLegacyContainer().shouldBe(exist));		
-		switchTo().frame(cHome.frameRootCompanies());
+//		switchTo().frame(cHome.frameRootCompanies());
 		
 		cGen.mActivitiesMenu().shouldBe(visible).click();
 		
@@ -124,7 +124,7 @@ public class CreateJobs extends TestBase {
 		
 		switchTo().defaultContent();
 		switchTo().frame(jHome.frameLegacyContainer().shouldBe(exist));
-		
+
 		//assert job title and presence of roles
 		
 		
@@ -139,6 +139,6 @@ public class CreateJobs extends TestBase {
 		testData.put("DirectJobMinSalary", directJobMinSalary);
 		testData.put("DirectJobMaxSalary", directJobMaxSalary);
 		io.writeMapFile(testData);
-		
+
 	}
 }

@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da18d797-864c-44e0-b008-837d8f372560" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdaptDebug/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/AdaptDebug/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdaptDebug/AdaptDebug.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdaptDebug/AdaptDebug.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdaptDebug/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AdaptDebug/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdaptDebug/src/main/java/Other/DatesCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdaptDebug/src/main/java/Other/DatesCalculation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdaptDebug/src/main/java/pages/S_JobsHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdaptDebug/src/main/java/pages/S_JobsHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdaptDebug/src/main/java/testcases/SmokeTest/CreateJobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdaptDebug/src/main/java/testcases/SmokeTest/CreateJobs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdaptDebug/src/main/java/testcases/SmokeTest/JobsQF.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdaptDebug/src/main/java/testcases/SmokeTest/JobsQF.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,44 +178,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Automation/GitHub/BondAdapt&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "F:/Automation/GitHub/BondAdapt",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.AdaptUserCalendarVerify">
-    <configuration name="AdaptUserCalendarVerify" type="TestNG" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="TestNG.DatesCalculation.getFirstDayOfYear">
+    <configuration name="DatesCalculation.dateCheck" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AdaptDebug" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testcases.CalendarTC.*" />
+          <option name="PATTERN" value="Other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testcases.CalendarTC" />
-      <option name="MAIN_CLASS_NAME" value="testcases.CalendarTC.AdaptUserCalendarVerify" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="Other" />
+      <option name="MAIN_CLASS_NAME" value="Other.DatesCalculation" />
+      <option name="METHOD_NAME" value="dateCheck" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PageCreator.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DatesCalculation.getFirstDayOfYear" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AdaptDebug" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_helpers.*" />
+          <option name="PATTERN" value="Other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_helpers" />
-      <option name="MAIN_CLASS_NAME" value="_helpers.PageCreator" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="Other" />
+      <option name="MAIN_CLASS_NAME" value="Other.DatesCalculation" />
+      <option name="METHOD_NAME" value="getFirstDayOfYear" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -231,15 +242,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="debug" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AdaptDebug" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.SmokeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases.SmokeTest" />
+      <option name="MAIN_CLASS_NAME" value="testcases.SmokeTest.debug" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="debug.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AdaptDebug" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.SmokeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases.SmokeTest" />
+      <option name="MAIN_CLASS_NAME" value="testcases.SmokeTest.debug" />
+      <option name="METHOD_NAME" value="createUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.PageCreator.test" />
-      <item itemvalue="TestNG.AdaptUserCalendarVerify" />
+      <item itemvalue="TestNG.DatesCalculation.dateCheck" />
+      <item itemvalue="TestNG.DatesCalculation.getFirstDayOfYear" />
+      <item itemvalue="TestNG.debug" />
+      <item itemvalue="TestNG.debug.createUser" />
       <item itemvalue="TestNG.UserCalendarSettingsVerify" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AdaptUserCalendarVerify" />
-        <item itemvalue="TestNG.PageCreator.test" />
+        <item itemvalue="TestNG.DatesCalculation.getFirstDayOfYear" />
+        <item itemvalue="TestNG.DatesCalculation.dateCheck" />
+        <item itemvalue="TestNG.debug.createUser" />
+        <item itemvalue="TestNG.debug" />
         <item itemvalue="TestNG.UserCalendarSettingsVerify" />
       </list>
     </recent_temporary>
@@ -257,6 +307,14 @@
       <updated>1663665548420</updated>
       <workItem from="1663665558298" duration="1351000" />
     </task>
+    <task id="LOCAL-00001" summary="Smoke test added">
+      <created>1663691411510</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663691411511</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -305,6 +363,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Smoke test added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Smoke test added" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

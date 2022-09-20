@@ -42,7 +42,7 @@ public class JobsQF extends TestBase {
 		switchTo().defaultContent();
 		lhm.openJobs();
 		lhm.lJobs_General().shouldBe(visible).click();		
-		
+/*
 		switchTo().defaultContent();
 		switchTo().frame(jobHome.frameLegacyContainer().shouldBe(exist));
 		switchTo().frame(jobHome.frJobOrders().shouldBe(exist));
@@ -69,6 +69,9 @@ public class JobsQF extends TestBase {
 		switchTo().frame(jobHome.frJobSearchResults().shouldBe(exist));
 		
 		jobHome.lkFirstJob(jobId).shouldBe(visible).click();
+
+
+ */
 	}
 
 }
