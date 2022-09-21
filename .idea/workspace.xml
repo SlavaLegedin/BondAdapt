@@ -6,15 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="da18d797-864c-44e0-b008-837d8f372560" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdaptDebug/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/AdaptDebug/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdaptDebug/AdaptDebug.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdaptDebug/AdaptDebug.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdaptDebug/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AdaptDebug/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdaptDebug/src/main/java/Other/DatesCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdaptDebug/src/main/java/Other/DatesCalculation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdaptDebug/src/main/java/pages/S_JobsHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdaptDebug/src/main/java/pages/S_JobsHome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdaptDebug/src/main/java/testcases/SmokeTest/CreateJobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdaptDebug/src/main/java/testcases/SmokeTest/CreateJobs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdaptDebug/src/main/java/testcases/SmokeTest/JobsQF.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdaptDebug/src/main/java/testcases/SmokeTest/JobsQF.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
