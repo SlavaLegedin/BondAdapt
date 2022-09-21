@@ -17,7 +17,21 @@ public class W_DirectJob_NewJobOrder extends TestBase {
 
     private By JobTitle = By.xpath("//*[@id=\"JOBTITLE$W_US_NewDirectJobOrder$W_US_NewDirectJobOrder\"]");
 
+    private By JobCat = By.xpath("//*[@id=\"JOBCODE$W_US_NewDirectJobOrder$W_US_NewDirectJobOrder\"]");
+
+    private By ReqNo = By.xpath("//*[@id=\"NUMBERREQUIRED$W_US_NewDirectJobOrder$W_US_NewDirectJobOrder\"]");
+
+    private By StartDate = By.xpath("//*[@id=\"STARTDATE$W_US_NewDirectJobOrder$W_US_NewDirectJobOrder\"]");
+
+    private By SalaryLow = By.xpath("//*[@id=\"SALARYLOW$W_US_NewDirectJobOrder$W_US_NewDirectJobOrder\"]");
+
+    private By SalaryHigh = By.xpath("//*[@id=\"SALARYHIGH$W_US_NewDirectJobOrder$W_US_NewDirectJobOrder\"]");
     public SelenideElement fJobTitle() {return $(JobTitle);}
+    public SelenideElement fJobCategory() {return $(JobCat);}
+    public SelenideElement fNumReq () {return $(ReqNo);}
+    public SelenideElement fStartDate () {return $(StartDate);}
+    public SelenideElement fSalaryLow () {return $(SalaryLow);}
+    public SelenideElement fSalaryHigh () {return $(SalaryHigh);}
 
     public SelenideElement ClientNameField () {return $(ClientName);}
 
