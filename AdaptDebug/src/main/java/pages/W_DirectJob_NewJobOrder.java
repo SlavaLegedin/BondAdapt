@@ -26,6 +26,9 @@ public class W_DirectJob_NewJobOrder extends TestBase {
     private By SalaryLow = By.xpath("//*[@id=\"SALARYLOW$W_US_NewDirectJobOrder$W_US_NewDirectJobOrder\"]");
 
     private By SalaryHigh = By.xpath("//*[@id=\"SALARYHIGH$W_US_NewDirectJobOrder$W_US_NewDirectJobOrder\"]");
+    private By Confirm = By.xpath("//*[@id=\"Button1$W_US_NewDirectJobOrder$W_US_NewDirectJobOrder\"]/span");
+
+    public SelenideElement bConfirm() {return $(Confirm);}
     public SelenideElement fJobTitle() {return $(JobTitle);}
     public SelenideElement fJobCategory() {return $(JobCat);}
     public SelenideElement fNumReq () {return $(ReqNo);}

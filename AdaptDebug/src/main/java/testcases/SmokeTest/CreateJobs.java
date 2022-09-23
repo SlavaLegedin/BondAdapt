@@ -34,7 +34,7 @@ public class CreateJobs extends TestBase {
 	
 	@Test(priority = 1, 
 			enabled = false
-			//dependsOnClass = {"CreateClient"}
+			dependsOnClass = {"CreateClient"}
 	)
 	public void CreateContractJob() {}
 	
@@ -123,7 +123,8 @@ public class CreateJobs extends TestBase {
 		switchTo().window(0);//
 		
 		switchTo().defaultContent();
-		switchTo().frame(jHome.frameLegacyContainer().shouldBe(exist));
+		switchTo().frame(cHome.frameLegacyContainer().shouldBe(exist));
+//		switchTo().frame(jHome.frameLegacyContainer().shouldBe(exist));
 
 		//assert job title and presence of roles
 		
@@ -131,13 +132,14 @@ public class CreateJobs extends TestBase {
 //		switchTo().frame(djSum.frInnerFrame()).switchTo().frame(djSum.frDirectJobGen());
 		
 		//Assert that all expected data has been populated
-		
-		
+
+		String directJobId = djSum.fdirectJobId().shouldBe(visible).getValue();
+
 		// put data to json with information
 		testData.put("directJobId", directJobId);
-		testData.put("directJobTitle", directJobTitle);
-		testData.put("DirectJobMinSalary", directJobMinSalary);
-		testData.put("DirectJobMaxSalary", directJobMaxSalary);
+		testData.put("directJobTitle", directJobName);
+		testData.put("DirectJobMinSalary", directSalaryLow);
+		testData.put("DirectJobMaxSalary", directSalaryHigh);
 		io.writeMapFile(testData);
 
 	}

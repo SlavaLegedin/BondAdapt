@@ -7,6 +7,9 @@
     <list default="true" id="da18d797-864c-44e0-b008-837d8f372560" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdaptDebug/src/main/java/pages/W_DirectJob_NewJobOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdaptDebug/src/main/java/pages/W_DirectJob_NewJobOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdaptDebug/src/main/java/pages/directJobEntity/S_DirectJob_Summary.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdaptDebug/src/main/java/pages/directJobEntity/S_DirectJob_Summary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdaptDebug/src/main/java/testcases/SmokeTest/CreateJobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdaptDebug/src/main/java/testcases/SmokeTest/CreateJobs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdaptDebug/testdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/AdaptDebug/testdata.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,18 +183,71 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.DatesCalculation.getFirstDayOfYear">
-    <configuration name="DatesCalculation.dateCheck" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CreateClient.AddContact">
+    <configuration name="CreateClient" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AdaptDebug" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Other.*" />
+          <option name="PATTERN" value="testcases.SmokeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Other" />
-      <option name="MAIN_CLASS_NAME" value="Other.DatesCalculation" />
-      <option name="METHOD_NAME" value="dateCheck" />
+      <option name="PACKAGE_NAME" value="testcases.SmokeTest" />
+      <option name="MAIN_CLASS_NAME" value="testcases.SmokeTest.CreateClient" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateClient.AddContact" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AdaptDebug" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.SmokeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases.SmokeTest" />
+      <option name="MAIN_CLASS_NAME" value="testcases.SmokeTest.CreateClient" />
+      <option name="METHOD_NAME" value="AddContact" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateClient.CreateClientFromWF" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AdaptDebug" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.SmokeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases.SmokeTest" />
+      <option name="MAIN_CLASS_NAME" value="testcases.SmokeTest.CreateClient" />
+      <option name="METHOD_NAME" value="CreateClientFromWF" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateClient.EnableClientFinancial" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AdaptDebug" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.SmokeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases.SmokeTest" />
+      <option name="MAIN_CLASS_NAME" value="testcases.SmokeTest.CreateClient" />
+      <option name="METHOD_NAME" value="EnableClientFinancial" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -217,72 +273,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserCalendarSettingsVerify" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AdaptDebug" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.CalendarTC.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases.CalendarTC" />
-      <option name="MAIN_CLASS_NAME" value="testcases.CalendarTC.UserCalendarSettingsVerify" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="debug" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AdaptDebug" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.SmokeTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases.SmokeTest" />
-      <option name="MAIN_CLASS_NAME" value="testcases.SmokeTest.debug" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="debug.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AdaptDebug" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.SmokeTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases.SmokeTest" />
-      <option name="MAIN_CLASS_NAME" value="testcases.SmokeTest.debug" />
-      <option name="METHOD_NAME" value="createUser" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG.DatesCalculation.dateCheck" />
+      <item itemvalue="TestNG.CreateClient" />
+      <item itemvalue="TestNG.CreateClient.AddContact" />
+      <item itemvalue="TestNG.CreateClient.CreateClientFromWF" />
+      <item itemvalue="TestNG.CreateClient.EnableClientFinancial" />
       <item itemvalue="TestNG.DatesCalculation.getFirstDayOfYear" />
-      <item itemvalue="TestNG.debug" />
-      <item itemvalue="TestNG.debug.createUser" />
-      <item itemvalue="TestNG.UserCalendarSettingsVerify" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CreateClient.AddContact" />
+        <item itemvalue="TestNG.CreateClient.EnableClientFinancial" />
+        <item itemvalue="TestNG.CreateClient.CreateClientFromWF" />
+        <item itemvalue="TestNG.CreateClient" />
         <item itemvalue="TestNG.DatesCalculation.getFirstDayOfYear" />
-        <item itemvalue="TestNG.DatesCalculation.dateCheck" />
-        <item itemvalue="TestNG.debug.createUser" />
-        <item itemvalue="TestNG.debug" />
-        <item itemvalue="TestNG.UserCalendarSettingsVerify" />
       </list>
     </recent_temporary>
   </component>
