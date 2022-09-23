@@ -3,3 +3,4 @@ bin
 /AdaptDebug/src/main/resources/chromedriver.exe
 chromedriver.exe
 .idea/workspace.xml
+.idea
